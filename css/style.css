@@ -1,0 +1,32 @@
+.logo {
+  float: left;
+  display: inline-block;
+}
+
+.log img {
+}
+
+.text-logo span {
+  display: block;
+}
+
+.text-logo {
+  display: inline;
+}
+#text1 {
+  display: inline-block;
+  font-family: "Italianno", cursive;
+  font-size: 25px;
+  font-weight: bold;
+  top: 0px;
+}
+
+.icons {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#rss {
+  margin-left: 5px;
+}
