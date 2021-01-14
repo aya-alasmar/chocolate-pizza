@@ -30,3 +30,27 @@
 #rss {
   margin-left: 5px;
 }
+
+main {
+  height: 100px;
+}
+
+.uppercontent {
+  display: inline;
+  margin-top: 20px;
+  margin-top: 20px;
+}
+
+#heading {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#date {
+  color: rgb(184, 184, 184);
+}
+
+#printimg {
+  float: right;
+}
