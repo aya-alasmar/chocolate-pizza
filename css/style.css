@@ -13,22 +13,22 @@
 #text1 {
   display: inline-block;
   font-weight: 900;
-  font-family: 'Italianno', cursive;
+  font-family: "Italianno", cursive;
   font-size: 45px;
 }
-#text2 , .print-side span{
-  font-family: 'Open Sans Condensed', sans-serif;
+#text2,
+.print-side span {
+  font-family: "Open Sans Condensed", sans-serif;
   font-size: 15px;
   color: gray;
   margin-top: -10px;
-
 }
-main{
+main {
   margin: auto;
   width: 960px;
 }
-header{
-  margin:auto;
+header {
+  margin: auto;
   height: 100px;
   width: 960px;
 }
@@ -36,10 +36,9 @@ header{
   float: right;
   margin-top: 25px;
   margin-right: 10px;
-
 }
 
-.icons img{
+.icons img {
   margin-left: -3px;
 }
 #rss {
@@ -48,32 +47,28 @@ header{
 
 main {
   margin-top: 15px;
-
 }
 
 .uppercontent {
-
   margin: 50px 0px 30px 0px;
- 
 }
 
 #heading {
   font-size: 38px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Oswald", sans-serif;
   display: block;
 }
-.print-side{
+.print-side {
   float: right;
 }
 
 #date {
-  font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 15px;
-    color: gray;
-
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 15px;
+  color: gray;
 }
-article p{
+article p {
   text-indent: 40px;
   margin: 25px 5px 5px 5px;
   font-size: 18px;
@@ -81,89 +76,95 @@ article p{
   line-height: 1.3;
   padding: 0px 20px;
 }
-.list{
+.list {
   background-image: url("../img/list-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 330px;
   margin: 40px 0px;
- 
 }
-.list ul{
+.list ul {
   display: inline-block;
-  color:#73684f;
-  font-size: 20px;
-  font-family: 'Nunito', sans-serif;
-  font-family: 'Oxygen', sans-serif;
+  color: #8f8163;
+  font-size: 21px;
+  font-family: "Nunito", sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-weight: 600;
-  margin-top:-20px;
+  margin-top: -26px;
   list-style: none;
-  
-  
 }
-.list2{
+.list2 {
   position: relative;
-  top: 60px;
-
+  top: 65px;
 }
-.list1{
+input {
+
+  margin-right: 10px;
+}
+
+.list1 {
   margin-left: 20px;
 }
-.list li{
+.list li {
   width: 380px;
   line-height: 1.6;
 }
 
-del{
+del {
   text-decoration: line-through;
 }
-.cookerinfo{
+.cookerinfo {
   margin-top: 30px;
   color: rgb(88, 88, 88);
   margin-bottom: 70px;
 }
-.cookerinfo div{
+.cookerinfo div {
   display: inline-block;
-  font-family: 'Nunito', sans-serif;
-  font-family: 'Oxygen', sans-serif;
-  font-family: 'Source Serif Pro', serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Source Serif Pro", serif;
   position: relative;
   width: 65%;
   margin-left: 10px;
-
 }
-.cookerinfo h1{
+.cookerinfo h1 {
   font-size: 25px;
 }
 
-button{
+button {
   width: 180px;
   height: 60px;
   display: inline-block;
   background-color: #bc7058;
-  color:white;
-  font-size:large ;
+  color: white;
+  font-size: large;
   border: none;
   margin-top: 20px;
-  float:right;
-
+  float: right;
 }
 footer {
   width: 960px;
   margin: auto;
   border-top: 1px solid darkgray;
-
 }
-footer img{
+footer img {
   display: block;
   position: relative;
   bottom: 20px;
   left: 47%;
 }
-footer h4{
+footer h4 {
   text-align: center;
-  color:  darkgray;
+  color: darkgray;
   margin-top: 10px;
   margin-bottom: 0px;
   font-weight: 500;
+}
+
+.border {
+  background-image: url("../img/hr-img.png");
+  background-repeat: repeat-x;
+  background-size: 7px;
+  height: 15px;
+  width: 100%;
 }
