@@ -98,8 +98,19 @@ article p {
   top: 65px;
 }
 input {
-
+  appearance: none;
+  border: 1px solid #b8a781;
+  padding: 5.3px;
+  border-radius: 3px;
   margin-right: 10px;
+}
+
+input:checked:active , input:checked{
+  appearance: none;
+   padding: 5.8px;
+   background-image: url("../img/ul-checked.PNG");
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 .list1 {
